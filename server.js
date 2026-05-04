@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ message: 'API Node.js básica rodando 🚀  2.3w2e32' });
+  res.json({ message: 'API Node.js básica rodando 🚀  2.e32' });
 });
 
 app.get('/usuarios', (req, res) => {
