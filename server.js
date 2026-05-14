@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ message: 'API Node.js básica rodando 🚀  werwer234' });
+  res.json({ message: 'API Node.js básica rodando 🚀  123' });
 });
 
 app.get('/usuarios', (req, res) => {
